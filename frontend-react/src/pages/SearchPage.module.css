@@ -1,0 +1,67 @@
+.searchBox {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin-bottom: var(--space-lg);
+}
+.searchRow { display: flex; gap: var(--space-sm); }
+.searchInput {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-base);
+  outline: none;
+}
+.searchInput:focus { border-color: var(--alfresco-blue); }
+.typeSelect {
+  padding: 10px 14px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-base);
+  background: #fff;
+  min-width: 160px;
+}
+.searchBtn {
+  padding: 10px 24px;
+  background: var(--alfresco-blue);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.searchBtn:hover { background: var(--alfresco-blue-dark); }
+.info { margin-bottom: var(--space-md); color: var(--text-secondary); font-size: var(--font-size-sm); }
+.resultCard {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  margin-bottom: var(--space-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+.resultCard:hover { box-shadow: var(--card-shadow-hover); border-color: var(--alfresco-blue); }
+.resultHeader { display: flex; align-items: center; gap: var(--space-sm); margin-bottom: var(--space-xs); }
+.resultName { font-weight: 600; color: var(--alfresco-blue); }
+.resultPreview { font-size: var(--font-size-sm); color: var(--text-secondary); margin-bottom: var(--space-sm); }
+.resultMeta { display: flex; gap: var(--space-sm); flex-wrap: wrap; }
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: var(--font-size-xs);
+  color: #fff;
+}
+.empty {
+  text-align: center;
+  padding: var(--space-xl);
+  color: var(--text-muted);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-md);
+}
+.loading { text-align: center; padding: var(--space-xl); color: var(--text-muted); }

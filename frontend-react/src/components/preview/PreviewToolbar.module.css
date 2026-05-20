@@ -1,0 +1,24 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-sm) var(--space-md);
+  background: #333;
+  color: #fff;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+}
+.left, .right { display: flex; align-items: center; gap: var(--space-sm); }
+.btn {
+  background: rgba(255,255,255,0.15);
+  border: none;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-sm);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: background var(--transition-fast);
+}
+.btn:hover { background: rgba(255,255,255,0.25); }
+.info { font-size: var(--font-size-sm); opacity: 0.8; }

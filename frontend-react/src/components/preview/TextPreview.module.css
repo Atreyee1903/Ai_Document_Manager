@@ -1,0 +1,22 @@
+.container {
+  border: 1px solid var(--card-border);
+  border-top: none;
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+  background: #fff;
+  max-height: 600px;
+  overflow: auto;
+  padding: var(--space-lg);
+}
+.text {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
+  color: var(--text-primary);
+}
+.empty {
+  text-align: center;
+  color: var(--text-muted);
+  padding: var(--space-xl);
+}

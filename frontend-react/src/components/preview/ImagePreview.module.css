@@ -1,0 +1,17 @@
+.container {
+  border: 1px solid var(--card-border);
+  border-top: none;
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+  background: #525659;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  max-height: 600px;
+  padding: var(--space-md);
+}
+.image {
+  max-width: 100%;
+  transition: transform var(--transition-normal);
+  border-radius: var(--radius-sm);
+}

@@ -1,0 +1,12 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-sm) 0;
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+}
+.crumb { color: var(--alfresco-blue); text-decoration: none; }
+.crumb:hover { text-decoration: underline; }
+.separator { color: var(--text-muted); }
+.current { color: var(--text-primary); font-weight: 500; }

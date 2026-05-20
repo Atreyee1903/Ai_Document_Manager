@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  padding-top: var(--header-height);
+}
+.main {
+  margin-left: var(--sidebar-width);
+  flex: 1;
+  padding: var(--space-lg);
+  min-width: 0;
+}

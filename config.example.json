@@ -1,0 +1,29 @@
+{
+  "paths": {
+    "project_root": "."
+  },
+  "database": {
+    "url": "postgresql://postgres:postgres@localhost:5432/ai_document_manager"
+  },
+  "api": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "debug": false
+  },
+  "storage": {
+    "users_dir": "users",
+    "documents_dir": "documents",
+    "extracted_text_dir": "extracted_text",
+    "metadata_dir": "metadata",
+    "embeddings_dir": "embeddings",
+    "user_documents_subdir": "documents",
+    "user_extracted_text_subdir": "extracted_text",
+    "user_metadata_subdir": "metadata",
+    "user_embeddings_subdir": "embeddings"
+  },
+  "security": {
+    "session_timeout": null,
+    "password_min_length": 6,
+    "require_digit": true
+  }
+}
